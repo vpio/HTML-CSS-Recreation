@@ -1,0 +1,429 @@
+/* reset */
+html, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+* {
+  box-sizing: border-box;
+	margin: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+.topnav{
+	position: relative;
+	height: 40px;
+}
+
+.input-container{
+	position: relative;
+}
+
+button{
+	background-color: #662F82;
+	border: none;
+	position: absolute;
+	top: 20px;
+}
+
+.fas{
+	color: white;
+	background-color: #662F82;
+	position: absolute;
+	right: 0px;
+	top: -2px;
+	font-size: 14px;
+}
+
+header {
+	background-color: #662F82;
+}
+
+.User_Icon-2{
+  background-color: #662F82;
+	width: 30px;
+	height: 30px;
+	display: block;
+	 -webkit-border-radius: 50%;
+	 -moz-border-radius: 50%;
+	 -ms-border-radius: 50%;
+	 -o-border-radius: 50%;
+	 border-radius: 50%;
+	position: absolute;
+	right: 240px;
+}
+
+.searchbar{
+  style: none;
+  border: none;
+  position: absolute;
+  top: 7px;
+  left: 340px;
+  height: 25px;
+  width: 220px;
+}
+
+.submit{
+  position: absolute;
+  top: 10px;
+  left: 575px;
+}
+
+#yahoo{
+  height: 40px;
+  width: 100px;
+  background-color: #662F82;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+}
+
+header nav{
+  background-color: #662F82;
+	padding: 5px 0;
+}
+.nav-bottom{
+	position: relative;
+	background-color: #662F82;
+	padding: 8px 0;
+	margin: 0 auto;
+	display: flex;
+
+}
+
+.navbar{
+  display: inline;
+}
+
+.navright{
+  float: right;
+}
+
+.arrow{
+	display: inline;
+	float: right;
+}
+
+.baltimore_2{
+	color: #662F82;
+	background-color: #80449E;
+	padding: 2px 6px;
+	padding-bottom: 6px;
+	margin-top: 6px;
+}
+
+.baltimore_{
+  background-color: #662F82;
+	color: white;
+}
+
+.degree{
+	float: center;
+	display: inline;
+}
+
+h4{
+	background-color: #662F82;
+	color: white;
+	font-size: 20px;
+	padding-left: 6px;
+	display: inline-flex;
+  margin-top: 3px;
+}
+
+nav p{
+  display: inline;
+}
+
+.centered li{
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+.leftnav{
+  display: inline-block;
+  position: absolute;
+  bottom: 400px;
+  left: 40px;
+}
+
+.rosenthol3{
+	height: 337px;
+	width: 100%;
+	background-image: url('../images/jesse.png');
+	background-size: cover;
+	position: relative;
+}
+
+.jesse img{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.textright{
+	float: right;
+	margin-right: 110px;
+	margin-top: 80px;
+	width: 500px;
+	color: #4F4F4F;
+}
+
+.textright h3{
+	font-size: 22px;
+}
+
+.righttext{
+	padding: 8px;
+}
+
+p.wrong{
+	font-size: 12px;
+	width: 75%;
+}
+
+.wrong{
+  background: rgba(204, 204, 204, 0.5);
+}
+
+p em{
+  width: 20em;
+  background: rgba(204, 204, 204, 0.5);
+  font-size: 12px;
+}
+
+.icon-column{
+	float: left;
+	margin-left: 200px;
+	margin-top: 0px;
+	background-color: white;
+	padding-top:
+}
+
+.icon-column i{
+  display: block;
+  padding: 6px 5px;
+}
+
+.rosenthol{
+	margin: 0 auto;
+	width: 75%;
+	position: relative;
+}
+
+.dubdiv{
+	position: absolute;
+	top: -6px;
+	right: 45px;
+	padding-right: 2em;
+	height: 30px;
+
+}
+
+.baltimore{
+	background-color: #662F82;
+	display: inline;
+	float: left;
+	font-size: 11px;
+	margin: 9px auto;
+}
+
+.centered{
+  background-color: transparent;
+  color: white;
+  padding: none;
+	text-align: center;
+}
+
+.centered li {
+  text-align: center;
+  background-color: #662F82;
+  padding: 0 12px;
+	display: inline-block;
+}
+
+.centered li:hover{
+  opacity: 0.3;
+}
+
+.bottom-nav{
+	margin: 0 auto;
+	background-color: #662F82;
+}
+
+/* main */
+
+.icons-left{
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+}
+
+.bothicons{
+	margin-left: 13em;
+	margin-top: 3em;
+}
+
+.socialicon{
+	display: inline;
+	padding-left: 20px;
+}
+
+.news{
+	margin: 20px auto;
+	background-color: white;
+	display: inline;
+}
+
+main{
+  background-color: white;
+  position: relative;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+main i{
+	color: #662F82;
+  font-size: 100px;
+}
+
+main ul{
+	display: inline-block;
+  margin-left: 0em;
+  background-color: white;
+  justify-content: center;
+}
+
+main li, li a{
+  background-color: white;
+  margin-bottom: 20px;
+  justify-content: center;
+	font-size: 12px;
+}
+
+li a{
+	color: #662F82;
+}
+
+main li{
+	margin-left: 6em;
+	width: 75%;
+}
+
+.scrnsht{
+	display: inline-block;
+	float: right;
+	margin-right: 14em;
+	margin-top: -40px;
+}
+
+#scrnsht{
+	height: 200px;
+	width: 160px;
+}
+
+/* banner */
+
+.rosenthol2{
+	position: relative;
+	width: 100;
+	background-color: #FFFED6;
+	margin: 0 auto;
+	height: 400px;
+	background-image: url('../images/eyefinal.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.bottom-right h1{
+	font-size: 35px;
+	color: #662F82;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-right{
+  float: right;
+	display: inline-block;
+	width: 440px;
+	margin-right: 170px;
+	margin-top: 80px;
+}
+
+.bottom-right p{
+	color: #662F82;
+	padding-top: 20px;
+}
+
+.bottom-right input{
+	color: white;
+	background-color: #662F82;
+	padding: 10px 20px;
+	border: none;
+	margin-top: 22px;
+}
+
+.bottombutton{
+	display: inline;
+}
+
+.ferris{
+	float: left;
+	display: inline;
+}
+
+#Ferris_Wheel{
+  display: inline;
+	height: 400px;
+	width: 700px;
+}
+
+/* query */
+
+@media only screen and (max-width: 1400px) {
+
+#querytext{
+	color: transparent;
+}
+
+p em{
+  width: 0em;
+  background: rgba(0 0 0 0);
+  font-size: 0px;
+}
+
+.wrong{
+  background: transparent;
+}
+
+#scrnsht{
+	visibility: hidden;
+}
+
+}
