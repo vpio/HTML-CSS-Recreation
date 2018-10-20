@@ -1,4 +1,4 @@
-# Wyncode-Project1-HTML-CSS
+# HTML-CSS-Recreation
 
 My first weekend project at Wyncode Academy in Miami, FL.
 
